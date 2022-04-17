@@ -1,0 +1,21 @@
+/*
+The package.json file is the center of any
+Node.js project or npm package. It stores 
+informaton about your project.
+*/
+//This is a json object below with "key":"value" pairs
+{
+	"name": "fcc-learn-npm-package-json",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	},
+	"author": "Chantera Lazard"
+}
